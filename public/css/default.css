@@ -1,0 +1,81 @@
+body {
+	background: silver;
+	font: 14px 'trebuchet ms', arial, sans-serif;
+}
+
+#header {
+	padding: 20px;
+	background: #12407f; //rosybrown; //gold;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 4px solid #436fac;
+}
+
+#title {
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+#title a {
+	color: #fff;
+	background: red;
+	padding: 4px 15px;
+	text-decoration: none;
+	font-size: 151px;
+	font-weight: bolder;
+}
+
+#content {
+	background: #fff;
+	padding: 20px;
+}
+
+#footer {
+	background: #12407f; //steelblue; //green;
+	color: #fff;
+	padding: 20px;
+	border-top: 4px solid #436fac;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#header a {
+	color: #fff;
+	background: #436fac;
+	padding: 4px 15px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+#header a:hover {
+	background: #4d8add
+}
+
+form {
+	font: 100% verdana,arial,sans-serif;
+}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 9px 0 0;
+	text-align: right; 
+}
+
+form input, form select {
+	width: auto;
+	margin: 5px 0 0 10px;
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+form input[type=submit]:hover {
+	cursor: pointer;
+	background: silver;
+}
+
+form br {clear: left;}

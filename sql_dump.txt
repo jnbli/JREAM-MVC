@@ -1,0 +1,26 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+--
+-- Database: `mvc`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `login` varchar(25) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `login`, `password`) VALUES
+(1, 'jesse', 'a1361cb85be840d6a2d762c68e4910e2');
